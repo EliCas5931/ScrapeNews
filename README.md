@@ -19,6 +19,4 @@ In the terminal run:
 1) heroku login
 2) git remote -v
 3) heroku create
-3) git remote -v 
-4) git commit -am "message"
-5) git push heroku master
+3) heroku addons:create mongolab
